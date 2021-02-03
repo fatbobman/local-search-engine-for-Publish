@@ -53,7 +53,7 @@ public extension Node where Context == HTML.DocumentContext {
                 return .socialImageLink(url)
             }),
             .script(
-                .src("//cdn.bootcss.com/jquery/3.2.1/jquery.min.js")  //
+                .src("//cdn.bootcss.com/jquery/3.2.1/jquery.min.js")  //add jQuery
             )
 
 
