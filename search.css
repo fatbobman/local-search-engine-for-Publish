@@ -1,0 +1,138 @@
+.site-search-form {
+    padding: 5px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    display: block;
+    margin-bottom:40px;
+    margin-top: 20px;
+    max-width:500px;
+    min-width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.st-search-input{
+    width:100%;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    color: #404040;
+    outline:none;
+    background-image: url("/images/search.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 24px 24px;
+    padding-left: 30px;
+}
+
+.st-search-input::-ms-clear{
+    display: none;
+}
+
+.st-search-input:valid + .clearSearchInput{
+    display: inline;
+}
+
+.local-search-input-cls {
+  width: 400px;
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #CCC;
+  color: #666;
+  font-size: 14px;
+  color: #404040;
+}
+
+.local-search-result-cls {
+    margin-top: 30px;
+    color: #404040;
+    min-height: 400px;
+}
+
+.local-search-result-cls  .local-search-empty {
+    color: #888;
+    line-height: 44px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .local-search-result-cls ul {
+    min-height: 0;
+    height: auto;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .local-search-result-cls li {
+      text-align: left;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      line-height: 30px;
+      font-weight: normal;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.local-search-result-cls li:last-child{
+    border-bottom: none;
+}
+
+.local-search-result-cls a {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: normal;
+        color: var(--item-title-color);
+}
+
+.local-search-result-cls a:hover {
+    color: var(--item-title-hover-color);
+}
+
+.local-search-result-cls  p {
+        margin-top: 10px;
+        font-size: 14px;
+        max-height: 124px;
+        overflow: hidden;
+      }
+
+.local-search-result-cls  em.search-keyword {
+        color: #ff502c;
+        background-color: #fff5f5;
+      }
+    
+
+
+.local-search-plugin {
+  .local-search-input-cls {
+    opacity: 0.6;
+    width: 160px;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 1;
+      width: 200px;
+      transition: all 0.3s;
+    }
+  }
+  .icon {
+    position: relative;
+    left: -30px;
+    color: #999;
+    cursor: pointer;
+  }
+}
+
+.clearSearchInput {
+    display: none; 
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    margin: 9px 0 0 -20px;  
+    background: url("/images/clear.svg") no-repeat;
+    background-size: 12px 12px;
+    outline: none; 
+}
+
