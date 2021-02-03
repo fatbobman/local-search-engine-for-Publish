@@ -27,5 +27,5 @@ searchResult 搜索结果显示
 
 searchInput 搜索框
 
-另外需要在head中进入jQuery
+另外需要在head中导入jQuery
 
