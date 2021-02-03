@@ -1,6 +1,11 @@
 # local-search-engine-for-Publish
 
+![Demo](publish-3-search-video.2021-02-03 18_52_11.gif)
+
+Visit [here](https://www.fatbobman.com/tags/) to test.
+
 A [Publish](https://github.com/JohnSundell/Publish) Plugin
+
 这是[hexo-generator-search](https://github.com/wzpan/hexo-generator-search)的Publish实现。
 其中的javascripte完全来自于[hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
 
